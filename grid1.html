@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    img
+    {
+        height: 100px;
+        width: 100px;
+    }
+    .grd
+    {
+        height:500px;
+        width:500px;
+        border:2px saddlebrown;
+        display:grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        /*grid-column-gap: 15px;
+        grid-row-gap: 15px;*/
+        gap: 20px;
+    }
+    .image
+    {
+        background-color: aqua;
+        border: 5px solid purple;
+    }
+    .merge
+    {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="grd">
+            <div class="image"><img src="images/img1.jpg"></div>
+            <div class="image"><img src="images/img2.jpg"></div>
+            <div class="image merge"><img src="images/img3.jpg"></div>
+            <div class="image"><img src="images/img4.jpg"></div>
+            <div class="image"><img src="images/img5.jpg"></div>
+            <div class="image"><img src="images/img6.jpg"></div>
+            <div class="image"><img src="images/img7.jpg"></div>
+            <div class="image"><img src="images/img8.jpg"></div>
+        
+    </div>
+</body>
+</html>

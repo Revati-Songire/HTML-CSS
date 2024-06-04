@@ -1,0 +1,101 @@
+/*input{
+    height:30px;
+    width:150px;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+}*/
+input[type=text], input[type=Password], input[type=date], input[type= Email]
+{
+    height: 30px;
+    width: 200px;
+    font-size:15px;
+    font-weight: 200;
+    background-color: aqua;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    /*margin-left: 100px;*/
+}
+select{
+    height: 30px;
+    width: 200px;
+    font-size:15px;;
+    font-weight: 200;
+    background-color:darkseagreen;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+input[type=reset],input[type=submit],button
+{
+    background-color: blue;
+    color: azure;
+    border: 3px solid white;
+    border-radius:40px;
+    padding:10px;
+    font-size: 15px;
+   
+}
+button a:link, button a:visited
+{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+input[type=radio]
+{
+    color: gold;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 30px;;
+    width: 30px;
+}
+form
+{
+    background-color: lawngreen;
+    margin:auto;
+    height: 1200px;px;
+    width: 700px;
+    padding: 30px;
+    border: 10px orangered;
+    outline: 200px purple solid;
+    text-align:justify;
+}
+label{
+    color:brown;
+    font-size: 20px;
+}
+input[type=search]
+{
+    height:30px;
+    width:30px;
+    border: 2px solid gray;
+    background-image: url(images/magnifier.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border-radius: 40px;
+    transition: width 1s;
+}
+input[type=search]:focus
+{
+   width: 200px;
+   border: radius 5px;;
+}
+.mailicon
+{
+    height:40px;
+    width:40px;
+    position:absolute;
+    z-index:1;
+    margin:10px;
+    margin-left: 180px;
+}
+input[type=Email]
+{
+   position: relative;
+}
+::placeholder
+{
+   color: black;
+}
+
+    

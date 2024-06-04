@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div
+        {
+            height:150px;
+            width: 150px;
+            border: 3px solid red;
+            background-color: yellowgreen;
+            transition: height 2s, width 3s, transform 2s;
+            transition-delay: 1s;
+        } */
+        div
+        {
+            height:150px;
+            width: 150px;
+            border: 3px solid red;
+            background-color: yellowgreen;
+            transition: height 2s, width 3s, transform 2s;
+            /* transition-delay: 1s; */ 
+        }
+        div:hover
+        {
+            /* height: 300px; */
+            width: 400px;
+            /* transform: rotate(180deg); */
+        }
+        #div1
+        { animation-timing-function: linear;}
+        #div2
+        {animation-timing-function: ease;}
+        #div3
+        {animation-timing-function: ease-in;}
+        #div4
+        {animation-timing-function: ease-in-out;}
+        #div5
+        {animation-timing-function: ease-out;}
+        #div6
+        {animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);}
+    </style>
+</head>
+<body>
+    <!-- <div></div> -->
+    <div id="div1"></div><br><br>
+    <div id="div2"></div><br><br>
+    <div id="div3"></div><br><br>
+    <div id="div4"></div><br><br>
+    <div id="div5"></div><br><br>
+    <div id="div6"></div><br><br>
+</body>
+</html>

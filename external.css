@@ -1,0 +1,50 @@
+h4
+{
+    color:crimson;
+    font-size:25px;
+    font-family:sans-serif:
+}
+.para
+{
+    color:hsl(210,20,10);
+    font-size:20px;
+    font-family:fantasy;
+    background-color: darkkhaki;
+}
+#p1
+{
+    color:coral;
+    font-size:25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+#p2
+{
+    background-color:darkmagenta;
+}
+/* *
+{
+    background-color: indigo;
+}*/
+body{
+    background-image:url("images/141424_1468712358_ivtpihlg.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div1{
+    height:1000px;
+    width:1000px;
+    background-image:url("images/142114_682926504_kfunhpuo.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+marquee{
+    color:darkmagenta;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

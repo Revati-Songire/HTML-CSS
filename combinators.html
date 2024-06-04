@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div p
+    {
+        font-size: medium;
+        color: brown;
+    }  
+    div>p
+    {
+        font-size: larger;
+        color: green;
+    }
+    div+p
+    {
+        color: darkviolet;
+        font-size:medium;
+    } 
+    div~p
+    {
+        font-size: medium;
+        color: midnightblue;
+    }
+    p i:first-child
+    {
+        color: crimson;
+        font-size: x-large;
+    }
+    div p:first-child
+    {
+        color: purple;
+        word-spacing:10px;
+    }
+    p::first-line
+    {
+        color:steelblue;
+        background-color:pink;
+    }
+    p::first-letter
+    {
+        color: black;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1::before
+    {
+        content: url(images/m1.jpg);
+    }
+    h1::after
+    {
+        content: url(images/image.jpg);
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Seletors</h1>
+        <p>Lorem ipsum dolor<i> sit, amet consectetur adipisicing</i>elit. Obcaecati voluptatibus in, <i>impedit alias incidunt fugit natus dicta autem tempora sit ad cumque, mollitia</i> rerum numquam perspiciatis maiores ipsam dolores exercitationem?</p>
+        <p>Lorem ipsum dolor sit amet <i>consectetur adipisicing elit. Dolorem accusamus quisquam</i>consequuntur blanditiis velit quaerat hic, aperiam tempore nisi adipisci pariatur expedita quas nostrum totam provident veniam officiis exercitationem impedit?</p>
+        <p>Lorem ipsum dolor sit<i> amet consectetur adipisicing elit. Ad, pariatur!</i> Quas totam amet excepturi. Eveniet, est. Explicabo recusandae, numquam expedita<i> rerum esse assumenda illo, quasi laudantium nulla</i> perspiciatis deserunt omnis.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nisi id rerum culpa tempore consectetur commodi quo harum aut earum dolorum ratione quisquam perferendis voluptatem libero ea ipsa illo officia!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem natus impedit maxime in, est expedita inventore distinctio architecto, eos nisi sequi ab necessitatibus officiis dolor reprehenderit. Quod laborum dolor recusandae?</p>
+</body>
+</html>

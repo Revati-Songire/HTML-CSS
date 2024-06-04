@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex
+        {
+            height: 500px;
+            width: 500px;
+            border:2px solid darkolivegreen;
+            display:flex;
+            flex-wrap:wrap;
+            gap:20px;
+            justify-content: center;
+            align-items: center;
+            flex-direction:row-reverse;
+        }
+        .images
+        {
+            height: 100px;
+            width: 100px;
+        }
+        img
+        {
+            height:100px;
+            width: 100px;
+        }
+        .flex div:nth-of-type(9)
+       {
+        /*flex-grow: 1;*/
+        /*flex-shrink: 1;*/
+        flex-basis: 200px;
+       } 
+    </style>
+</head>
+<body>
+    <div class="flex">
+            <div class="images"><img src="images/img1.jpg"></div>
+            <div class="images"><img src="images/img2.jpg"></div>
+            <div class="images"><img src="images/img3.jpg"></div>
+            <div class="images"><img src="images/img4.jpg"></div>
+            <div class="images"><img src="images/img5.jpg"></div>
+            <div class="images"><img src="images/img6.jpg"></div>
+            <div class="images"><img src="images/img7.jpg"></div>
+            <div class="images"><img src="images/img8.jpg"></div>
+            <div class="images"><img src="images/img9.jpg"></div>
+            <div class="images"><img src="images/img10.jpg"></div>
+            
+            
+            
+            
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+          height: 150px;
+          width: 150px;
+          border-radius: 125px;
+          background-color: coral;
+          animation-name: circle;
+          animation-duration: 1s;
+          animation-delay:  2s;
+          animation-iteration-count: infinite;
+          position: relative;
+          animation-direction: alternate-reverse */
+        }
+        /* @keyframes circle
+        {
+            from{background-color: darkgreen}
+            to{background-color: darkred;}
+        } */
+        /* @keyframes circle
+        {
+            10%{background-color: blue;}
+            30%{background-color: chartreuse;}
+            45%{background-color: brown;}
+            60%{background-color: indigo;}
+            80%{background-color: teal;}
+            100%{background-color: black;} 
+        }  */
+         @keyframes circle
+        {
+            10%{background-color: blue; left:0px; top:0px}
+            30%{background-color: chartreuse; left: 400px; top:0px}
+            45%{background-color: brown; left: 400px; top:400px}
+            60%{background-color: indigo; left:0px; top:400px}
+            100%{background-color: black; left:0px; top:0px}
+        }  
+
+        #div1
+        { animation-timing-function: linear;}
+        #div2
+        {animation-timing-function: ease;}
+        #div3
+        {animation-timing-function: ease-in;}
+        #div4
+        {animation-timing-function: ease-in-out;}
+        #div5
+        {animation-timing-function: ease-out;}
+        #div6
+        {animation-timing-function:cubic-bezier(0.19, 1, 0.22, 1);}
+
+         @keyframes circle
+        {
+            0%{background-color: blue; top:0;}
+            100%{background-color:brown; top: 200px;}
+        } 
+    </style>
+</head>
+<body>
+    <!--<div></div> CIRCLE-->
+    <!--<div id="div1"></div> SQUARE
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <div id="div5"></div>
+    <div id="div6"></div>-->
+    <div></div>
+
+</body>
+</html>
